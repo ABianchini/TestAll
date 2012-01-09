@@ -3,5 +3,6 @@
 
     <string name="hello">Hello World! Next up, an awesome Action Bar!</string>
     <string name="app_name">Test All</string>
+    <string name="version_number">0.1</string>
 
 </resources>
