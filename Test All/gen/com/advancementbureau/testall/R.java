@@ -35,8 +35,9 @@ public final class R {
         public static final int TextView_ChangeText=0x7f090003;
         public static final int TextView_Title=0x7f090004;
         public static final int TextView_Welcome=0x7f090005;
-        public static final int changelog_menu_item=0x7f09000a;
-        public static final int settings_menu_item=0x7f090009;
+        public static final int actionBarInfo_menu_item=0x7f090009;
+        public static final int changelog_menu_item=0x7f09000b;
+        public static final int settings_menu_item=0x7f09000a;
     }
     public static final class layout {
         public static final int actionbar=0x7f030000;
@@ -45,16 +46,19 @@ public final class R {
         public static final int settings=0x7f030003;
     }
     public static final class menu {
-        public static final int gameoptions=0x7f080000;
+        public static final int actionbaroptions=0x7f080000;
+        public static final int mainoptions=0x7f080001;
     }
     public static final class raw {
         public static final int changelog=0x7f040000;
     }
     public static final class string {
+        public static final int about=0x7f07000a;
         public static final int action_bar=0x7f070004;
+        public static final int action_bar_about=0x7f070007;
         public static final int action_bar_body=0x7f070009;
-        public static final int action_bar_explain=0x7f070007;
         public static final int app_name=0x7f070001;
+        public static final int back=0x7f07000b;
         public static final int changelog=0x7f070005;
         public static final int hello=0x7f070000;
         public static final int settings=0x7f070006;

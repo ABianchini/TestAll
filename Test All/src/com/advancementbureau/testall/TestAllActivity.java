@@ -17,7 +17,7 @@ public class TestAllActivity extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
     	super.onCreateOptionsMenu(menu);
-    	getMenuInflater().inflate(R.menu.gameoptions, menu);
+    	getMenuInflater().inflate(R.menu.mainoptions, menu);
     	menu.findItem(R.id.settings_menu_item).setIntent(new Intent(this, SettingsActivity.class));
     	menu.findItem(R.id.changelog_menu_item).setIntent(new Intent(this, ChangeLogActivity.class));
     	return true;
