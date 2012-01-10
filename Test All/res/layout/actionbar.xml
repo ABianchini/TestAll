@@ -11,6 +11,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:textColor="@color/text" />
-    <Button />
+    <Button
+        android:id="@+id/Button_ActionBar_Back" />
 
 </LinearLayout>
