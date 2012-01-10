@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class TestAllActivity extends Activity {
     /** Called when the activity is first created. */
@@ -26,5 +27,8 @@ public class TestAllActivity extends Activity {
     	super.onOptionsItemSelected(item);
     	startActivity(item.getIntent());
     	return true;
+    }
+    public void onActionBarButtonClick(View view) {
+    	startActivity(new Intent(TestAllActivity.this, ActionBarActivity.class));
     }
 }
