@@ -50,6 +50,14 @@
                 android:textColor="@color/text"
                 android:layout_gravity="center"
                 android:onClick="onActionBarButtonClick" />
+            <Button
+                android:id="@+id/Button_Graphics"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/graphics"
+                android:textColor="@color/text"
+                android:layout_gravity="center"
+                android:onClick="onGraphicsButtonClick" />
             
         </LinearLayout>
     </ScrollView>

@@ -31,4 +31,7 @@ public class TestAllActivity extends Activity {
     public void onActionBarButtonClick(View view) {
     	startActivity(new Intent(TestAllActivity.this, ActionBarActivity.class));
     }
+    public void onGraphicsButtonClick(View view) {
+    	startActivity(new Intent(TestAllActivity.this, GraphicsActivity.class));
+    }
 }

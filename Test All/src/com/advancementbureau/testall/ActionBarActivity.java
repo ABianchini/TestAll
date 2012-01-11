@@ -45,28 +45,28 @@ public class ActionBarActivity extends Activity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
     	super.onOptionsItemSelected(item);
-    	switch (item.getItemId()) {
-    		case R.id.settings_menu_item:
-    			startActivity(item.getIntent());
-    		case R.id.actionBarInfo_menu_item:
-    			PopIt();
-    		case android.R.id.home:
+    	if (item.getItemId() == R.id.settings_menu_item) {
+    			startActivity(item.getIntent()); }
+		if (item.getItemId() == R.id.actionBarInfo_menu_item) {
+    			PopIt(); }
+		if (item.getItemId() == android.R.id.home) {
     			Intent intent2 = new Intent(this, TestAllActivity.class);
     			intent2.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-    			startActivity(intent2);
-    		case R.id.actionBar_save:
+    			startActivity(intent2); }
+    	if (item.getItemId() == R.id.actionBar_save) {
     			Toast toast = Toast.makeText(getApplicationContext(), "You saved a puppy!", Toast.LENGTH_SHORT);
-    			toast.show();
-    		case R.id.actionBar_herp:
+    			toast.show(); }
+		if (item.getItemId() == R.id.actionBar_herp) {
     			Toast toast2 = Toast.makeText(getApplicationContext(), "Herp", Toast.LENGTH_SHORT);
-    			toast2.show();
-    		case R.id.actionBar_derp:
+    			toast2.show(); }
+    	if (item.getItemId() == R.id.actionBar_derp) {
     			Toast toast3 = Toast.makeText(getApplicationContext(), "Derp", Toast.LENGTH_SHORT);
     			toast3.show();
     	}
     	return true;
     }
     public AlertDialog myAlertDialog;
+    
     public void onActionBarBackButtonClick(View view) {
     	startActivity(new Intent(ActionBarActivity.this, TestAllActivity.class));
     	ActionBarActivity.this.finish();
