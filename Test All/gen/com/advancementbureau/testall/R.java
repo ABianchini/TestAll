@@ -41,7 +41,9 @@ public final class R {
         public static final int actionBar_derp=0x7f09000f;
         public static final int actionBar_herp=0x7f09000e;
         public static final int actionBar_save=0x7f09000d;
-        public static final int changelog_menu_item=0x7f090010;
+        public static final int changelog_menu_item=0x7f090012;
+        public static final int graphicsAbout_menu_item=0x7f090011;
+        public static final int graphicsSettings_menu_item=0x7f090010;
         public static final int settings_menu_item=0x7f09000c;
     }
     public static final class layout {
@@ -53,7 +55,8 @@ public final class R {
     }
     public static final class menu {
         public static final int actionbaroptions=0x7f080000;
-        public static final int mainoptions=0x7f080001;
+        public static final int graphicsoptions=0x7f080001;
+        public static final int mainoptions=0x7f080002;
     }
     public static final class raw {
         public static final int changelog=0x7f040000;
@@ -67,6 +70,7 @@ public final class R {
         public static final int back=0x7f07000b;
         public static final int changelog=0x7f070005;
         public static final int graphics=0x7f07000d;
+        public static final int graphics_about=0x7f070010;
         public static final int graphics_text=0x7f07000f;
         public static final int graphics_title=0x7f07000e;
         public static final int hello=0x7f070000;

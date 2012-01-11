@@ -65,7 +65,6 @@ public class ActionBarActivity extends Activity {
     	}
     	return true;
     }
-    public AlertDialog myAlertDialog;
     
     public void onActionBarBackButtonClick(View view) {
     	startActivity(new Intent(ActionBarActivity.this, TestAllActivity.class));
