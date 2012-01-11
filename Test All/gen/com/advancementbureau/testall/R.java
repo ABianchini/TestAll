@@ -36,7 +36,10 @@ public final class R {
         public static final int TextView_Title=0x7f090004;
         public static final int TextView_Welcome=0x7f090005;
         public static final int actionBarInfo_menu_item=0x7f090009;
-        public static final int changelog_menu_item=0x7f09000b;
+        public static final int actionBar_derp=0x7f09000d;
+        public static final int actionBar_herp=0x7f09000c;
+        public static final int actionBar_save=0x7f09000b;
+        public static final int changelog_menu_item=0x7f09000e;
         public static final int settings_menu_item=0x7f09000a;
     }
     public static final class layout {
@@ -61,6 +64,7 @@ public final class R {
         public static final int back=0x7f07000b;
         public static final int changelog=0x7f070005;
         public static final int hello=0x7f070000;
+        public static final int save=0x7f07000c;
         public static final int settings=0x7f070006;
         public static final int settings_text=0x7f070008;
         public static final int version_number=0x7f070002;
