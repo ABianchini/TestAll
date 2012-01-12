@@ -19,8 +19,8 @@ public class ActionBarActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.actionbar);
-        ActionBar actionBar = getActionBar();
-        actionBar.setDisplayHomeAsUpEnabled(true);
+        ActionBar actionBar2 = getActionBar();
+        actionBar2.setDisplayHomeAsUpEnabled(true);
     }
     
     
