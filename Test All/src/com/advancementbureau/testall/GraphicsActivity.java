@@ -1,5 +1,6 @@
 package com.advancementbureau.testall;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
@@ -16,6 +17,8 @@ public class GraphicsActivity extends Activity {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.graphics);
+        ActionBar actionBar = getActionBar();
+        actionBar.setDisplayHomeAsUpEnabled(true);
     }
     public void onGraphicsBackButtonClick(View view) {
     	startActivity(new Intent(GraphicsActivity.this, TestAllActivity.class));
@@ -37,7 +40,10 @@ public class GraphicsActivity extends Activity {
 		}
 		if (item.getItemId() == R.id.graphicsAbout_menu_item) {
 			PopIt(); 
-		}
+		}if (item.getItemId() == android.R.id.home) {
+			Intent intent2 = new Intent(this, TestAllActivity.class);
+			intent2.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+			startActivity(intent2); }
     	return true;
     }
     private void PopIt(){

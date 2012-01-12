@@ -4,10 +4,10 @@
         android:id="@+id/graphicsSettings_menu_item"
         android:title="@string/settings"
         android:icon="@android:drawable/ic_menu_preferences"
-        android:showAsAction="always" ></item>
+        android:showAsAction="always|withText" ></item>
     <item
         android:id="@+id/graphicsAbout_menu_item"
         android:title="@string/about"
         android:icon="@android:drawable/ic_menu_info_details"
-        android:showAsAction="always" ></item>
+        android:showAsAction="always|withText" ></item>
 	</menu>
