@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.advancementbureau.testall"
     android:versionCode="9"
-    android:versionName="1.1.3" >
+    android:versionName="1.2.0" >
 
     <uses-sdk android:minSdkVersion="14" />
 
@@ -18,10 +18,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="SettingsActivity"></activity>
-        <activity android:name="ChangeLogActivity"></activity>
-        <activity android:name="ActionBarActivity"></activity>
-        <activity android:name="GraphicsActivity"></activity>
+        <activity android:name="SettingsActivity" android:label="@string/settings"></activity>
+        <activity android:name="ChangeLogActivity" android:label="@string/changelog"></activity>
+        <activity android:name="ActionBarActivity" android:label="@string/action_bar"></activity>
+        <activity android:name="GraphicsActivity" android:label="@string/graphics"></activity>
     </application>
 
 </manifest>

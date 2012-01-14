@@ -19,12 +19,12 @@
         android:gravity="center"
         android:textColor="@color/text"
         android:padding="6dp" />
-    <Button
+    <!-- <Button
         android:id="@+id/Button_Graphics_Back"
         android:text="@string/back"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textColor="@color/text"
-        android:onClick="onGraphicsBackButtonClick" />
+        android:onClick="onGraphicsBackButtonClick" />-->
 
 </LinearLayout>

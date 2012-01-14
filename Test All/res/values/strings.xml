@@ -3,7 +3,7 @@
 
     <string name="hello">Hello World! Next up, an awesome Action Bar!</string>
     <string name="app_name">Test All</string>
-    <string name="version_number">Version 1.1.3</string>
+    <string name="version_number">Version 1.2.0</string>
     <string name="welcome_text">This application exists in order to test Android capabilities in the following activities. Hope they work!</string>
     <string name="action_bar">Action Bar</string>
     <string name="changelog">Changelog</string>
@@ -15,8 +15,9 @@
     <string name="back">Back</string>
     <string name="save">Save</string>
     <string name="graphics">Graphics</string>
-    <string name="graphics_title">Graphics Stuff</string>
+    <string name="graphics_title">Cool Animation!!!</string>
     <string name="graphics_text">Super cool animations will be here soon!</string>
     <string name="graphics_about">This Activity deals with some cool Animations, which are yet to come.</string>
+    
     
 </resources>
