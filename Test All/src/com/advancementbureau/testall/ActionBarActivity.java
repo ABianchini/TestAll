@@ -23,14 +23,6 @@ public class ActionBarActivity extends Activity {
         actionBar2.setDisplayHomeAsUpEnabled(true);
     }
     
-    
-    
-    
-    
-    
-    
-    
-    
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
     	super.onCreateOptionsMenu(menu);
