@@ -69,9 +69,8 @@ public final class R {
         public static final int back=0x7f07000b;
         public static final int changelog=0x7f070005;
         public static final int graphics=0x7f07000d;
-        public static final int graphics_about=0x7f070010;
-        public static final int graphics_text=0x7f07000f;
-        public static final int graphics_title=0x7f07000e;
+        public static final int graphics_about=0x7f07000f;
+        public static final int graphics_text=0x7f07000e;
         public static final int hello=0x7f070000;
         public static final int save=0x7f07000c;
         public static final int settings=0x7f070006;

@@ -15,9 +15,8 @@
     <string name="back">Back</string>
     <string name="save">Save</string>
     <string name="graphics">Graphics</string>
-    <string name="graphics_title">Cool Animation!!!</string>
     <string name="graphics_text">Super cool animations will be here soon!</string>
-    <string name="graphics_about">This Activity deals with some cool Animations, which are yet to come.</string>
+    <string name="graphics_about">This Activity deals with some cool Graphics and Animations, which are yet to come.</string>
     
     
 </resources>

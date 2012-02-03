@@ -21,7 +21,7 @@
         <activity android:name="SettingsActivity" android:label="@string/settings"></activity>
         <activity android:name="ChangeLogActivity" android:label="@string/changelog"></activity>
         <activity android:name="ActionBarActivity" android:label="@string/action_bar"></activity>
-        <activity android:name="GraphicsActivity" android:label="@string/graphics"></activity>
+        <activity android:hardwareAccelerated="true" android:name="GraphicsActivity" android:label="@string/graphics"></activity>
     </application>
 
 </manifest>

@@ -5,11 +5,12 @@
     android:orientation="vertical"
     android:background="@color/background2" >
     <TextView
-        android:text="@string/graphics_title"
+        android:text="@string/graphics"
         android:textSize="@dimen/title_size"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center"
+        android:textStyle="bold"
         android:textColor="@color/text" />
     <TextView
         android:text="@string/graphics_text"
