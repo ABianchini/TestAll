@@ -9,7 +9,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.view.View;
 
 public class GraphicsActivity extends Activity {
     /** Called when the activity is first created. */
@@ -20,10 +19,14 @@ public class GraphicsActivity extends Activity {
         ActionBar actionBar = getActionBar();
         actionBar.setDisplayHomeAsUpEnabled(true);
     }
-    public void onGraphicsBackButtonClick(View view) {
-    	startActivity(new Intent(GraphicsActivity.this, TestAllActivity.class));
-    	GraphicsActivity.this.finish();
-    }
+    
+    
+    
+    
+    
+    
+    
+    
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
     	super.onCreateOptionsMenu(menu);
@@ -54,4 +57,8 @@ public class GraphicsActivity extends Activity {
             public void onClick(DialogInterface arg0, int arg1) {}
         }).show();
     }
+    /*public void onGraphicsBackButtonClick(View view) {
+		startActivity(new Intent(GraphicsActivity.this, TestAllActivity.class));
+		GraphicsActivity.this.finish();
+	}*/
 }
