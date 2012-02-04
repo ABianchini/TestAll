@@ -14,7 +14,6 @@ import android.widget.Toast;
 
 public class ActionBarActivity extends Activity {
     /** Called when the activity is first created. */
-	static final int ABOUT_DIALOG_ID = 0;
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
