@@ -3,7 +3,7 @@
 
     <string name="hello">Hello World! Next up, an awesome Action Bar!</string>
     <string name="app_name">Test All</string>
-    <string name="version_number">Version 1.2.0</string>
+    <string name="version_number">Version 1.2.1</string>
     <string name="welcome_text">This application exists in order to test Android capabilities in the following activities. Hope they work!</string>
     <string name="action_bar">Action Bar</string>
     <string name="changelog">Changelog</string>
