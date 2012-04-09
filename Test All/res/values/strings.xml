@@ -17,6 +17,7 @@
     <string name="graphics">Graphics</string>
     <string name="graphics_text">Super cool animations will be here soon!</string>
     <string name="graphics_about">This Activity deals with some cool Graphics and Animations, which are yet to come.</string>
+    <string name="fragments">Fragments</string>
     
     
 </resources>

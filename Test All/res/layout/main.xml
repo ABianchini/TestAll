@@ -58,6 +58,14 @@
                 android:textColor="@color/text"
                 android:layout_gravity="center"
                 android:onClick="onGraphicsButtonClick" />
+            <Button
+                android:id="@+id/Button_Fragments"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/fragments"
+                android:textColor="@color/text"
+                android:layout_gravity="center"
+                android:onClick="onFragmentsButtonClick" />
             
         </LinearLayout>
     </ScrollView>
