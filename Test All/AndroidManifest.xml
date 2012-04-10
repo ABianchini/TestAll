@@ -22,7 +22,6 @@
         <activity android:name="ChangeLogActivity" android:label="@string/changelog"></activity>
         <activity android:name="ActionBarActivity" android:label="@string/action_bar"></activity>
         <activity android:hardwareAccelerated="true" android:name="GraphicsActivity" android:label="@string/graphics"></activity>
-        <activity android:name="FragmentsActivity"></activity>
     </application>
 
 </manifest>
